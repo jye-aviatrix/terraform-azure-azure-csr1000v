@@ -4,6 +4,7 @@ Allow ping from RFC1918. Allow SSH from your egress public IP.
 
 
 Bootstrap CSR reference:
+
 https://www.cisco.com/c/en/us/td/docs/routers/csr1000/software/azu/b_csr1000config-azure/b_csr1000config-azure_chapter_01011.pdf
 
 https://github.com/csr1000v/customdata-examples
