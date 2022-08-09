@@ -16,6 +16,7 @@ The BYOL version supports all four CSR Technology Packages (IP Base, SEC, AppX, 
 Without a license installed, the BYOL version of the CSR 1000V will be completely functional and will have all features enabled. It will however be limited to a total throughput of **100 Kbps** until an evaluation license or purchased license is installed.
 
 ## Cost
+```
 Name                                                     Monthly Qty  Unit                      Monthly Cost
 
  azurerm_linux_virtual_machine.this
@@ -28,6 +29,7 @@ Name                                                     Monthly Qty  Unit      
  └─ IP address (static)                                           730  hours                            $2.63
 
  OVERALL TOTAL                                                                                         $64.90
+```
 
 ## Bootstrap CSR reference:
 
