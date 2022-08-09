@@ -10,6 +10,25 @@ You can launch cloud shell and run following:
 Get-AzMarketplaceTerms -Publisher "cisco" -Product "cisco-csr-1000v" -Name "17_3_3-byol" | Set-AzMarketplaceTerms -Accept
 ```
 
+## Limitation
+The BYOL version supports all four CSR Technology Packages (IP Base, SEC, AppX, and AX), depending on the installed license. A valid license must be purchased from Cisco, or a Cisco partner.
+
+Without a license installed, the BYOL version of the CSR 1000V will be completely functional and will have all features enabled. It will however be limited to a total throughput of **100 Kbps** until an evaluation license or purchased license is installed.
+
+## Cost
+Name                                                     Monthly Qty  Unit                      Monthly Cost
+
+ azurerm_linux_virtual_machine.this
+ ├─ Instance usage (pay as you go, Standard_B2ms)                 730  hours                           $60.74
+ └─ os_disk
+    ├─ Storage (S4)                                                 1  months                           $1.54
+    └─ Disk operations                             Monthly cost depends on usage: $0.0005 per 10k operations
+
+ azurerm_public_ip.this
+ └─ IP address (static)                                           730  hours                            $2.63
+
+ OVERALL TOTAL                                                                                         $64.90
+
 ## Bootstrap CSR reference:
 
 https://www.cisco.com/c/en/us/td/docs/routers/csr1000/software/azu/b_csr1000config-azure/b_csr1000config-azure_chapter_01011.pdf
